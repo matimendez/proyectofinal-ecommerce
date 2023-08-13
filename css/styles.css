@@ -287,3 +287,19 @@ text-decoration: underline;
 .login_register a:hover{
   text-decoration: underline;
 }
+
+@media screen and (min-width: 576px) {
+  .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login_form{
+    width: 432px;
+    padding: 4rem 3rem 3.5rem;
+    border-radius: 1.5rem;
+  }
+  .login_title{
+    font-size: 2rem;
+  }
+}
