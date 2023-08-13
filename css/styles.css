@@ -189,6 +189,12 @@ a.custom-card:hover {
   color: orange;
 }
 
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .login_form{
   position: relative;
   background-color: hsla(0, 0%, 10%, .1);
