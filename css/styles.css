@@ -188,3 +188,101 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+.login_form{
+  position: relative;
+  background-color: hsla(0, 0%, 10%, .1);
+  border: 2px solid ;
+  margin-inline: 1.5rem;
+  padding: 2.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.login_title{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login_content,
+.login_box{
+  display: grid;
+}
+
+.login_content{
+  row-gap: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.login_box{
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  column-gap: 0.75rem;
+  border-bottom: 2px solid;
+}
+
+.login_icon,
+.login_eye{
+  font-size: 1.25rem;
+}
+
+.login_input{
+  width: 100%;
+  padding-block: .6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.login_eye{
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.login_box :nth-child(2) input{
+}
+
+.login_check,
+.login_check-group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login_check{
+  margin-bottom: 1.5rem;
+}
+
+.login_check-label,
+.login_forgot,
+.login_register{
+  font-size: var(--small-font-size);
+}
+
+.login_check-group{
+  column-gap: .5rem;
+}
+
+.login_check-input{
+  width: 16px;
+  height: 16px;
+}
+
+.login_forgot:hover{
+text-decoration: underline;
+}
+
+.login_button{
+  width: 100%;
+  padding: 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.login_register{
+  text-align: center;
+}
+
+.login_register a:hover{
+  text-decoration: underline;
+}
