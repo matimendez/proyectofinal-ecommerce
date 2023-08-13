@@ -239,6 +239,7 @@ a.custom-card:hover {
 }
 
 .login_box :nth-child(2) input{
+  padding-right: 1.8rem;
 }
 
 .login_check,
